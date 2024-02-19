@@ -12,4 +12,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="projectlombok.lombok" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="d8326eee-a933-43e6-860a-67643f8c3886" />
+  </component>
 </module>
