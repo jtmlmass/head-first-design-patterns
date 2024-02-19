@@ -4,7 +4,7 @@ import decorator_pattern.components.Beverage;
 
 public class Decaf extends Beverage {
     public Decaf() {
-        description = "Decaf Coffee";
+        setDescription("Decaf Coffee");
     }
 
     public double cost() {

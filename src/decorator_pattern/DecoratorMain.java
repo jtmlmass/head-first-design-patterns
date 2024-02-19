@@ -2,10 +2,12 @@ package decorator_pattern;
 
 import decorator_pattern.components.Beverage;
 import decorator_pattern.implementations.beverages.DarkRoast;
+import decorator_pattern.implementations.beverages.Decaf;
 import decorator_pattern.implementations.beverages.Espresso;
 import decorator_pattern.implementations.beverages.HouseBlend;
 import decorator_pattern.implementations.condiments.Mocha;
 import decorator_pattern.implementations.condiments.Soy;
+import decorator_pattern.implementations.condiments.SteamedMilk;
 import decorator_pattern.implementations.condiments.Whip;
 
 public class DecoratorMain {
@@ -28,5 +30,11 @@ public class DecoratorMain {
       beverage3 = new Mocha(beverage3);
       beverage3 = new Whip(beverage3);
       System.out.println(beverage3.getDescription() + " $" + beverage3.cost());
+
+      // Create a new Beverage 4 of Decaf
+        Beverage beverage4 = new Decaf();
+        beverage4 = new SteamedMilk(beverage4);
+        System.out.println(beverage4.getDescription() + " $" + beverage4.cost());
+
     }
 }

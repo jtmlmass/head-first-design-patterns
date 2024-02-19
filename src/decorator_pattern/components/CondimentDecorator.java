@@ -1,5 +1,9 @@
 package decorator_pattern.components;
 
 public abstract class  CondimentDecorator extends Beverage{
-  public abstract String getDescription();
+  public final Beverage beverage;
+
+  protected CondimentDecorator(Beverage beverage) {
+    this.beverage = beverage;
+  }
 }

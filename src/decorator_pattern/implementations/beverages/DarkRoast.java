@@ -4,7 +4,7 @@ import decorator_pattern.components.Beverage;
 
 public class DarkRoast extends Beverage {
     public DarkRoast() {
-        description = "Dark Roast Coffee";
+        this.setDescription("Dark Roast Coffee");
     }
 
     public double cost() {

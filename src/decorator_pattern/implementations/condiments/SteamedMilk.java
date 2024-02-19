@@ -4,10 +4,8 @@ import decorator_pattern.components.Beverage;
 import decorator_pattern.components.CondimentDecorator;
 
 public class SteamedMilk extends CondimentDecorator {
-  public Beverage beverage;
-
   public SteamedMilk(Beverage beverage) {
-      this.beverage = beverage;
+      super(beverage);
   }
 
   public String getDescription() {

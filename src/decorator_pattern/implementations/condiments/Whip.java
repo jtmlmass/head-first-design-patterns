@@ -4,10 +4,8 @@ import decorator_pattern.components.Beverage;
 import decorator_pattern.components.CondimentDecorator;
 
 public class Whip extends CondimentDecorator {
-  public Beverage beverage;
-
   public Whip(Beverage beverage) {
-      this.beverage = beverage;
+      super(beverage);
   }
 
   public String getDescription() {
