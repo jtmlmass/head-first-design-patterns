@@ -1,7 +1,8 @@
 package observable;
 
-import observable.implementations.*;
+import observable.observables.*;
 import observable.interfaces.Observer;
+import observable.subjects.WeatherData;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

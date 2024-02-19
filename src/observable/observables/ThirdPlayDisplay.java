@@ -1,16 +1,17 @@
-package observable.implementations;
+package observable.observables;
 
 import observable.interfaces.DisplayElement;
 import observable.interfaces.Observer;
 import observable.interfaces.Subject;
 
-public class CurrentConditionsDisplay implements Observer, DisplayElement {
+public class ThirdPlayDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
     private float pressure;
+
     private Subject weatherData;
 
-    public CurrentConditionsDisplay(Subject weatherData) {
+    public ThirdPlayDisplay(Subject weatherData) {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
@@ -23,7 +24,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     }
 
     public void display() {
-        System.out.println("Current conditions: " + temperature + "F degrees and " + humidity + "% humidity" + " and " + pressure + " pressure");
+        System.out.println("ThirdPlay conditions: " + temperature + "F degrees and " + humidity + "% humidity" + " and " + pressure + " pressure");
     }
 
     public void remove() {

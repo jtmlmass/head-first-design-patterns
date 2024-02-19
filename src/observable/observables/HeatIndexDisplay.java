@@ -1,4 +1,4 @@
-package observable.implementations;
+package observable.observables;
 
 import observable.interfaces.DisplayElement;
 import observable.interfaces.Observer;

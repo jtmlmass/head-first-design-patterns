@@ -1,4 +1,4 @@
-package observable;
+package observable.subjects;
 
 import lombok.Data;
 import observable.interfaces.Observer;
