@@ -1,0 +1,18 @@
+
+x
+java:S1488("]Immediately return this expression instead of assigning it to the temporary variable "index".(þ“ˆËøÿÿÿÿ
+r
+java:S1450	"WRemove the "humidity" field and declare it as a local variable in the relevant methods.(¯Ýæöÿÿÿÿÿ
+m
+java:S1450
+"WRemove the "pressure" field and declare it as a local variable in the relevant methods.(Ï¼Çä
+u
+java:S1450"ZRemove the "temperature" field and declare it as a local variable in the relevant methods.(¹„ËÓþÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Â•ƒªûÿÿÿÿ
+J
+java:S1068"/Remove this unused "temperature" private field.(¹„ËÓþÿÿÿÿ
+G
+java:S1068	",Remove this unused "humidity" private field.(¯Ýæöÿÿÿÿÿ
+B
+java:S1068
+",Remove this unused "pressure" private field.(Ï¼Çä
